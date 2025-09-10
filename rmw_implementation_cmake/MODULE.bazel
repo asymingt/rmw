@@ -15,16 +15,7 @@
 # Package information
         
 module(
-    name = "rmw_security_common",
+    name = "rmw_implementation_cmake",
     version = "7.9.0",
     compatibility_level = 0,
 )
-
-# Dependencies
-
-bazel_dep(name = "googletest", version = "1.17.0")
-bazel_dep(name = "rcutils", version = "7.0.0")
-bazel_dep(name = "rmw", version = "7.9.0")
-bazel_dep(name = "ros", version = "0.0.1")
-bazel_dep(name = "rosidl_runtime_c", version = "5.0.0")
-bazel_dep(name = "rules_cc", version = "0.2.4")
